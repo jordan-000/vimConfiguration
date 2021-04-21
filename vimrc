@@ -23,8 +23,7 @@ set laststatus=2	" always show status bar
 set ruler		" always show cursor position
 set title		" title of the file currently being edited
 
-set foldmethod=indent	" fold code based on indentation
-set foldnestmax=3	" fold 3 nested levels
+set backspace=indent,eol,start
 
 set history=1000	" undo limit
 
@@ -32,4 +31,5 @@ set history=1000	" undo limit
 " color scheme
 colorscheme gruvbox
 set background=dark
+
 
